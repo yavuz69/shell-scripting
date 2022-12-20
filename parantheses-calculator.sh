@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# sum=$((3 + 5))
-# echo $sum 
+sum=$((3 + 5))
+echo $sum 
 
-# sum=$((3+5))
-# echo $sum
+sum=$((3+5))
+echo $sum
 
 read -p "Input first number: " first_number
 read -p "Input second number: " second_number

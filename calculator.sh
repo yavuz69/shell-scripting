@@ -13,29 +13,29 @@ expr 3-2
 false
 
 
-# read -p "Input first number: " first_number
-# read -p "Input second number: " second_number
+read -p "Input first number: " first_number
+read -p "Input second number: " second_number
 
-# echo "SUM="`expr $first_number + $second_number`
-# echo "SUB="`expr $first_number - $second_number`
-# echo "MUL="`expr $first_number \* $second_number`
-# echo "DIV="`expr $first_number / $second_number`
+echo "SUM="`expr $first_number + $second_number`
+echo "SUB="`expr $first_number - $second_number`
+echo "MUL="`expr $first_number \* $second_number`
+echo "DIV="`expr $first_number / $second_number`
 
-# let "sum = 3 + 5"
-# echo $sum
+let "sum = 3 + 5"
+echo $sum
 
-# let sub=8-4
-# echo $sub
+let sub=8-4
+echo $sub
 
-# x=5
-# let x++
-# echo $x
-# z=9
-# let ++z
-# echo $z
+x=5
+let x++
+echo $x
+z=9
+let ++z
+echo $z
 
-# y=3
-# let y--
-# echo $y
+y=3
+let y--
+echo $y
 
 
